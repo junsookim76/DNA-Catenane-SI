@@ -1,5 +1,5 @@
 ; Include forcefield parameters
-#include "./amber14sb_parmbsc1_cufix.ff/forcefield.itp"
+#include "./topol_at76_at82/amber14sb_parmbsc1_cufix.ff/forcefield.itp"
 
 ; Include chain topologies
 #include "./topol_at76_at82/topol_DNA_chain_r1a.itp"
@@ -8,7 +8,7 @@
 #include "./topol_at76_at82/topol_DNA_chain_r2b.itp"
 
 ; Include water topology
-#include "./amber14sb_parmbsc1_cufix.ff/tip3p.itp"
+#include "./topol_at76_at82/amber14sb_parmbsc1_cufix.ff/tip3p.itp"
 
 #ifdef POSRES_WATER
 ; Position restraint for each water oxygen
@@ -18,7 +18,7 @@
 #endif
 
 ; Include topology for ions
-#include "./amber14sb_parmbsc1_cufix.ff/ions.itp"
+#include "./topol_at76_at82/amber14sb_parmbsc1_cufix.ff/ions.itp"
 
 [ system ]
 ; Name
