@@ -1,4 +1,4 @@
-Five folders for the article "Computational Characterization of the Mechanical Bond in DNA Catenanes"
+Five folders for the article "Computational Characterization of the Mechanical Bond in DNA Catenanes" by Song, Kim, Kim (2024)
 1. "conf_gro": GROMACS input .gro files including all solvent molecules and ions
 2. "mpd": GROMACS input .mdp file
 3. "movie_files": representative movie files for 82-82, 92-92, and 76-82 catenanes
